@@ -24,7 +24,7 @@ function Sidebar() {
   const location = useLocation();
 
   return (
-    <div className="w-64 bg-[#121212] border-r border-gray-800">
+    <div className="w-64 h-screen bg-[#121212] border-r border-gray-800">
       <div className="p-6">
         <div className="flex items-center gap-2 mb-8">
           <TrendingUp className="w-8 h-8 text-[#7F5AF0]" />
