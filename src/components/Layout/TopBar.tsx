@@ -24,12 +24,12 @@ function TopBar() {
           <span className="absolute -top-1 -right-1 w-3 h-3 bg-[#FFCD58] rounded-full"></span>
         </button>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 cursor-pointer">
           <div className="w-8 h-8 bg-[#7F5AF0] rounded-full flex items-center justify-center">
-            <User className="w-4 h-4 text-white" />
+            <User className="w-4 h-4 text-white " />
           </div>
           <span className="hidden sm:inline text-sm font-medium text-white">
-            Alex Chen
+            Rozimurodov Rozimuhammad
           </span>
         </div>
       </div>
